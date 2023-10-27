@@ -1,0 +1,19 @@
+#form-edit-person div {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+#form-edit-person input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  margin: 5px 0 15px 0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#form-edit-person .save {
+  background-color: #3d8812;
+}

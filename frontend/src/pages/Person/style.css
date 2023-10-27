@@ -1,0 +1,14 @@
+#show-person div {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+#show-person div h2 {
+  margin: 8px 0;
+}
+
+#show-person div h2:nth-child(1) {
+  color: black;
+}

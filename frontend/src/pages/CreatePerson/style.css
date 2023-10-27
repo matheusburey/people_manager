@@ -1,0 +1,19 @@
+#form-create-person div {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+#form-create-person input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  margin: 5px 0 15px 0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#form-create-person .save {
+  background-color: #3d8812;
+}
