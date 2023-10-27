@@ -46,8 +46,10 @@ Endpoints
 1. Obter todas as Pessoas
 Request
 
-    Método: GET
-    Endpoint: /person
+    >Método: GET
+    
+    >Endpoint: /person
+    
     Descrição: Obtém todas as pessoas cadastradas no sistema.
 
 Response
@@ -84,8 +86,10 @@ Response
 2. Obter uma Pessoa por ID
 Request
 
-    Método: GET
-    Endpoint: /person/{person_id}
+    >Método: GET
+    
+    >Endpoint: /person/{person_id}
+    
     Descrição: Obtém informações de uma pessoa específica pelo seu ID.
 
 Response
@@ -112,8 +116,10 @@ Response
 3. Adicionar uma Nova Pessoa
 Request
 
-    Método: POST
-    Endpoint: /person
+    >Método: POST
+    
+    >Endpoint: /person
+    
     Descrição: Adiciona uma nova pessoa ao sistema.
     Corpo da Requisição (JSON):
 
@@ -137,8 +143,10 @@ Response
 4. Atualizar uma Pessoa Existente
 Request
 
-    Método: PUT
-    Endpoint: /person/{person_id}
+    >Método: PUT
+    
+    >Endpoint: /person/{person_id}
+    
     Descrição: Atualiza informações de uma pessoa existente pelo seu ID.
     Corpo da Requisição (JSON):
 
@@ -162,8 +170,10 @@ Response
 5. Remover uma Pessoa
 Request
 
-    Método: DELETE
-    Endpoint: /person/{person_id}
+    >Método: DELETE
+    
+    >Endpoint: /person/{person_id}
+    
     Descrição: Remove uma pessoa do sistema pelo seu ID.
 
 Response
